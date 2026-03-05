@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+  /* Main Dark Background */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cbd5e1;
+}
+
+.mainadd h1 {
+    margin: 0;
+  color: #facc15;   
+}
+
+.mainadd {
+     color: white;
+    text-shadow: 1px 1px 2px black;
+  background: linear-gradient(90deg, #1e293b, #0f172a);
+    padding: 20px;
+    text-align: center;
+  display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+ position: relative;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+ z-index: 1;
+}
+

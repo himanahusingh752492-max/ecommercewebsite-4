@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a;   /* Main Dark Background */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f5f9;
+}
+
+
+.header {
+     color: white;
+    text-shadow: 1px 1px 2px black;
+  background: linear-gradient(90deg, #1e293b, #0f172a);
+    padding: 20px;
+    text-align: center;
+  display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+ position: relative;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+ z-index: 1;
+}
+
+.header h1 {
+    margin: 0;
+  color:#facc15;    
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+}
+.search{
+    position: relative;
+    height: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+   padding-right: 0%;
+   width:  400px;
+      border: none;
+        border-radius: 6px;
+         border: 1px solid #334155;
+    background-color: #1e293b;
+    color: white;
+    outline: none;
+}
+.button{
+   position: relative;
+    height: 30px;
+    border: none;
+     padding: 8px 14px;  
+      width: 80px;
+   border: none;
+   cursor: pointer;
+     border-radius: 6px;
+    background-color: #2563eb;
+      color: white;
+        border: none;
+         transition: 0.3s;
+}
+.button:hover {
+    background-color: #1d4ed8;
+}
+
+.div1{
+ /* border-radius: 10px; */
+ padding: 2px;
+    position: relative;
+    /* background-color: yellow; */
+    display: flex;
+  align-items: center;
+  justify-content: center;
+/* box-shadow: 1px 1px 2px black; */
+
+}
+
+.menu{
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    
+    margin-left: auto;
+    top: -1500px;
+    padding: 0%;
+        /* backdrop-filter: blur(6px); */
+         background: linear-gradient(90deg, #1e3a8a, #1e40af);
+    padding: 12px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: space-between;
+
+   
+}
+.b1 {
+    background-color: #22c55e;   /* Green */
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.b1:hover {
+    background-color: #16a34a;   /* Darker green */
+    transform: scale(1.05);
+}
+
+.b1:active {
+    transform: scale(0.95);
+}
+ /* .b1:hover{
+    border-radius: 10px;
+    background-color: #1b9f64; 
+    
+   
+}  */
+.product{
+    width: 300px;
+    height: auto;
+    background-color: #c4e4e8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.addtocart {
+    background-color: #22c55e;   /* Green */
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.addtocart:hover {
+    background-color: #16a34a;  
+    transform: scale(1.05);
+}
+.addtocart:active {
+    transform: scale(0.95);
+}
+.menu a{
+    margin: 4px;
+    color:#facc15;
+    transition: color 0.3s; /* specify property for smoother animation */
+    cursor: pointer;
+}
+
